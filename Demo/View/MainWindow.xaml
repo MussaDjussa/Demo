@@ -8,14 +8,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:mvvm="clr-namespace:Demo.ViewModel"
     Title="MainWindow"
-    Width="800"
-    Height="450"
+    Width="450"
+    Height="800"
     mc:Ignorable="d">
     <Window.DataContext>
-        <mvvm:Class1/>
+        <mvvm:Class1 />
     </Window.DataContext>
     <Grid>
         <Frame x:Name="NavigationServices" NavigationUIVisibility="Hidden" />
-        
     </Grid>
 </Window>

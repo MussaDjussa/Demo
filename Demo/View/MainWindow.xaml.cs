@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace Demo
         public MainWindow()
         {
             InitializeComponent();
+            NavigationServices.Content = new Login();
         }
     }
 }

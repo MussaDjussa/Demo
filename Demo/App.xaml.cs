@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo.Model;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,9 @@ namespace Demo
     /// </summary>
     public partial class App : Application
     {
+        /// <summary>
+        /// Контекст обращения к БД
+        /// </summary>
+        public static ProductDbEntities db = new ProductDbEntities();
     }
 }
